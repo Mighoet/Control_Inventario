@@ -20,7 +20,30 @@ public class Nodo<T> {
         this.next = next;
         //this.prev = null;
     }
+    
+     public T getValor() {
+        return valor;
+    }
 
+    public Nodo<T> getNext() {
+        return next;
+    }
+
+    public Nodo<T> getPrev() {
+        return prev;
+    }
+    
+    public void setValor(T valor) {
+        this.valor = valor;
+    }
+
+    public void setNext(Nodo<T> next) {
+        this.next = next;
+    }
+
+    public void setPrev(Nodo<T> prev) {
+        this.prev = prev;
+    }
 
  
 
